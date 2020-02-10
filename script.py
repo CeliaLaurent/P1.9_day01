@@ -13,6 +13,8 @@ if(fnum=="1"):
   yval = list(map(lambda x: x , xval))
 elif(fnum=="2"):
   yval = list(map(lambda x: x**2 , xval))
+elif(fnum=="3"):
+  yval = list(map(lambda x: x**3 , xval))
 else:
   sys.exit()
 
