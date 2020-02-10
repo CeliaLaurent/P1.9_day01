@@ -16,6 +16,8 @@ elif(fnum=="2"):
   yval = list(map(lambda x: math.sin(x) , xval))
 elif(fnum=="3"):
   yval = list(map(lambda x: math.cos(x) , xval))
+elif(fnum=="4"):
+  yval = list(map(lambda x: math.tan(x) , xval))
 else:
   sys.exit()
 
