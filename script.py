@@ -7,3 +7,8 @@ if(len(sys.argv)!=2):
     sys.exit()
 
 fnum=sys.argv[1]
+
+if(fnum=="1"):
+  yval = list(map(lambda x: x , xval))
+else:
+  sys.exit()
