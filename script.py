@@ -11,6 +11,8 @@ def usage():
     print(" - 'python script.py 4' plots y=sin(x)")
     print(" - 'python script.py 5' plots y=cos(x)")
     print(" - 'python script.py 6' plots y=tan(x)")
+    print(" - 'python script.py 7' plots y=exp(x)")
+    print(" - 'python script.py 8' plots y=sqrt(|x|)")
 
 xval=list(np.around(np.arange(-3.,3.,0.1),decimals=1))
 
@@ -32,6 +34,10 @@ elif(fnum=="5"):
     yval = list(map(lambda x: math.cos(x) , xval))
 elif(fnum=="6"):
     yval = list(map(lambda x: math.tan(x) , xval))
+elif(fnum=="7"):
+    yval = list(map(lambda x: math.exp(x) , xval))
+elif(fnum=="8"):
+    yval = list(map(lambda x: math.sqrt(abs(x)) , xval))
 else:
     usage()
     sys.exit()
