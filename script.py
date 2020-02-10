@@ -6,6 +6,9 @@ import math
 def usage():
     print("Usage: this scripts takes one <int> argument and plots different functions:")
     print(" - 'python script.py 1' plots y=x")
+    print(" - 'python script.py 2' plots y=sin(x)")
+    print(" - 'python script.py 3' plots y=cos(x)")
+    print(" - 'python script.py 4' plots y=tan(x)")
 
 xval=list(np.around(np.arange(-5.,5.,0.1),decimals=1))
 
