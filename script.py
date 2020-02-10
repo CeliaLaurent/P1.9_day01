@@ -9,7 +9,7 @@ def usage():
     print(" - 'python script.py 2' plots y=exp(x)")
     print(" - 'python script.py 3' plots y=sqrt(|x|)")
 
-xval=list(np.around(np.arange(-5.,5.,0.1),decimals=1))
+xval=list(np.around(np.arange(-3.,3.,0.1),decimals=1))
 
 if(len(sys.argv)!=2): 
     usage()
