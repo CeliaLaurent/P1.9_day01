@@ -1,6 +1,7 @@
 import numpy as np
 import sys
 import matplotlib.pyplot as plt
+import math
 
 xval=list(np.around(np.arange(-5.,5.,0.1),decimals=1))
 
@@ -11,6 +12,8 @@ fnum=sys.argv[1]
 
 if(fnum=="1"):
   yval = list(map(lambda x: x , xval))
+elif(fnum=="2"):
+  yval = list(map(lambda x: math.sin(x) , xval))
 else:
   sys.exit()
 
