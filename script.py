@@ -6,7 +6,7 @@ def usage():
     print("Usage: this scripts takes one <int> argument and plots different functions:")
     print(" - 'python script.py 1' plots y=x")
 
-xval=list(np.around(np.arange(-5.,5.,0.1),decimals=1))
+xval=list(np.around(np.arange(-3.,3.,0.1),decimals=1))
 
 if(len(sys.argv)!=2): 
     usage()
